@@ -46,7 +46,7 @@
         }).addTo(map);
 
         // Connect to WebSocket Server
-        const socket = new WebSocket("ws://localhost:8080");
+        const socket = new WebSocket("ws://localhost:3000");
 
         socket.onopen = function() {
             console.log("Connected to WebSocket Server");
